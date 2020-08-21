@@ -1,0 +1,205 @@
+body{
+    margin:0;
+    padding:0;
+    background: black;
+    color: white;
+    font-family: 'roboto', sans-serif;
+}
+
+nav{
+    background: #021428;
+    width:  1520px;
+    height: 70px;
+}
+
+
+#logo{
+    height: 30px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 21px;
+}
+
+a{
+    line-height: 4;
+    color: #FFC0CB;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 20px;
+    position: relative;
+    top:-9px;
+    left: 15px;
+}
+
+a:hover{
+    color: 	white;
+}
+
+a.active{
+    color: 	#FF69B4;
+}
+
+/* Slide show*/
+
+#slideshow{
+    border-bottom: 10px solid #021428;
+    width: 1520px;
+}
+
+/*Homepage content*/
+
+#paragraph{
+    margin:80px;
+    margin-bottom:0;
+}
+
+/*Sevices Page*/
+
+h1#page-title{
+    margin: 50px;
+    color: #021428;
+} /*This applies to all page titles*/
+
+img#services-slide{
+    margin-left:50px;
+}
+
+#services-paragraph{
+    margin-top:100px;
+    margin-right:50px;
+    margin-left:50px;
+}
+
+/*Portfolio Page*/
+
+#project1-image, #project2-image, #project3-image{
+    margin-left:50px;
+}
+
+div#project1{
+    margin-left:820px;
+    position: absolute;
+    top: 183px;
+    left:0px;
+    width: 550px;
+}
+
+a.project1-button{
+    width: 100px;
+    height: 60px;
+    background:#FF69B4;
+    padding:20px;
+    position: relative;
+    top: 4px;
+    left: -21px;
+}
+
+div#project2{
+    margin-left:820px;
+    position: absolute;
+    top: 540px;
+    left:0px;
+    width: 550px;
+}
+
+a.project2-button{
+    width: 100px;
+    height: 60px;
+    background:#FF69B4;
+    padding:20px;
+    position: relative;
+    top: 5px;
+    left: -21px;
+}
+
+div#project3{
+    margin-left:820px;
+    position: absolute;
+    top: 892px;
+    left:0px;
+    width: 550px;
+}
+
+a.project3-button{
+    width: 100px;
+    height: 60px;
+    background:#FF69B4;
+    padding:20px;
+    position: relative;
+    top: 5px;
+    left: -21px;
+}
+
+section#project2, section#project3{
+    margin-top:50px;
+}
+
+/*About Page*/
+
+img#about-image{
+    margin-left:50px;
+}
+
+.about{
+    padding-left: 35px;
+}
+
+/*Form*/
+
+form{
+    margin-left:50px;
+}
+
+.form-control{
+    display:block;
+    width: 40%;
+    padding: .75rem .75rem;
+    line-height: 1.5;
+    color:#495057;
+    border: 2px solid #FFC0CB;
+    border-radius: .25rem;
+    transition: border-color .15e ease-in-out, box-shadow .15e ease-in-out;
+}
+
+.btn-primary{
+    color:black;
+    background-color: #FFC0CB;
+    border: #495057;
+}
+
+.btn-primary:hover{
+    color:white;
+    border-color: white;
+}
+
+.btn{
+    display:inline-block;
+    font-weight:400;
+    text-align:center;
+    white-space:nowrap;
+    vertical-align:middle;
+    user-select:none;
+    border: 1px solid transparent;
+    padding: .75rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: border-color .15e ease-in-out, box-shadow .15e ease-in-out;
+   
+
+}
+
+/*Footer*/
+
+footer{
+    margin-top: 30px;
+    background: #021428;
+    width: 100%;
+    height: 80px;
+    color: white;
+}
+
+#footer-text{
+    line-height: 5;
+    text-align: center;
+}
